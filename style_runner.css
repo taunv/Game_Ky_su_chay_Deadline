@@ -31,6 +31,13 @@ body { background: #0f172a; height: 100dvh; display: flex; justify-content: cent
     font-weight: bold;
     animation: marquee 15s linear infinite;
 }
+/* kich thuoc logo
+.daro-logo {
+    max-width: 48px;
+    max-height: 48px;
+    width: auto;
+    height: auto;
+}
 
 @keyframes marquee {
     0% { transform: translate(0, 0); }
@@ -51,4 +58,5 @@ canvas { width: 100%; height: 100%; display: block; }
 .overlay { position: absolute; inset: 0; background: rgba(15, 23, 42, 0.85); display: flex; justify-content: center; align-items: center; z-index: 2000; }
 .hidden { display: none !important; }
 .modal { background: #fff; padding: 30px; border-radius: 20px; text-align: center; width: 85%; }
+
 .play-btn { background: #1e293b; color: #fff; border: none; padding: 15px 40px; font-size: 1.2rem; font-weight: 700; border-radius: 12px; cursor: pointer; width: 100%; margin-top: 20px; }
